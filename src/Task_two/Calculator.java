@@ -2,40 +2,51 @@ package Task_two;
 
 public class Calculator {
 
-    public int Sum (int a, int b){
-        return (a+b);
-    }
-    public double Sum (double a, double b) {
+
+    public int sum (int a, int b){
         return (a + b);
     }
-    public long Sum (long a, long b) {
+
+    public double sum (double a, double b) {
         return (a + b);
     }
-    public int Subtraction (int a , int b){
-        return (a-b);
+
+    public long sum (long a, long b) {
+        return (a + b);
     }
-    public double Subtraction (double a , double b) {
-        return (a-b);
+    public int subtraction (int a , int b){
+        return (a - b);
     }
-    public long Subtraction (long a , long b){
-        return (a-b);
+
+    public double subtraction (double a , double b) {
+        return (a - b);
     }
-    public int Multiplication(int a, int b) {
-        return (a*b);
+
+    public long subtraction (long a , long b){
+        return (a - b);
     }
-    public double Multiplication(double a, double b) {
-        return (a*b);
+
+    public int multiplication(int a, int b) {
+        return (a * b);
     }
-    public long Multiplication(long a, long b) {
-        return (a*b);
+
+    public double multiplication(double a, double b) {
+        return (a * b);
     }
-    public int Division(int a, int b){
+
+    public long multiplication(long a, long b) {
+        return (a * b);
+    }
+
+    public double division(int a, int b){
         return (a / b);
     }
-    public double Division(double a, double b) {
+
+    public double division(double a, double b) {
         return (a / b);
     }
-    public long Division(long a, long b) {
+
+    public double division(long a, long b) {
         return (a / b);
     }
 }
