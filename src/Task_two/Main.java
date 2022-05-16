@@ -18,7 +18,7 @@ public class Main {
         System.out.println(three.multiplication(-9223372036854775807L,-1));
 
         Calculator four = new Calculator();
-        System.out.println(four.division(3.0,4));
+        System.out.println(four.division(3,4));
         System.out.println(four.division(68.4,6));
         System.out.println(four.division(9223372036854775807L,768614336404564600L));
 
