@@ -39,7 +39,7 @@ public class Calculator {
     }
 
     public double division(int a, int b){
-        return (a / b);
+        return ((double) a / b);
     }
 
     public double division(double a, double b) {
@@ -47,7 +47,7 @@ public class Calculator {
     }
 
     public double division(long a, long b) {
-        return (a / b);
+        return ((double) a / b);
     }
 }
 
