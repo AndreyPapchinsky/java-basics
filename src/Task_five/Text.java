@@ -2,7 +2,8 @@ package Task_five;
 
 public class Text {
     public static void main(String[] args) {
-        palindrome(longWord(replace(count(reverse()))));
+        String text = "ьтасипаН дотем ялд аксиоп огомас огоннилд аволс в етскет .акяб";
+        palindrome(longWord(replace(count(reverse(text)))));
     }
     private static String longWord(String string){
         String[] array = string.split(" ");
@@ -30,8 +31,8 @@ public class Text {
         System.out.println(string.split("Написать метод для поиска").length -1);
         return string;
     }
-    private static String reverse (){
-        String[] words = new StringBuilder("ьтасипаН дотем ялд аксиоп огомас огоннилд аволс в етскет .акяб").reverse().toString().split(" ");
+    private static String reverse (String text){
+        String[] words = new StringBuilder(text).reverse().toString().split(" ");
         StringBuilder string = new StringBuilder();
         for (int i = words.length - 1; i >= 0; i--)string.append(words[i]).append(" ");
         System.out.println(string);
