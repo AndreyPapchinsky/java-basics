@@ -14,8 +14,9 @@ public class Parent {
         this.age = age;
     }
 
+    Scanner scanner = new Scanner(System.in);
+
     public void scan(){
-        Scanner scanner = new Scanner(System.in);
         System.out.println("Возраст пользователя: ");
         setAge(scanner.nextInt());
     }
